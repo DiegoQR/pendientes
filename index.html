@@ -7,12 +7,21 @@
         <input type="text" id="todo-name-input" />
       </a><br>
 
+      <div>
+        <label for="type-input">Selecciona un tipo</label>
+          <select name="type-input" id="type-input">
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+          </select>
+      </div><br>
+
+      <div>
+        <p id="list-output"></p>
+        <p id="list-type-output"></p>
+      </div>
+
       <input type="submit" value="Saludar" />
     </form>
-
-    <div>
-      <p id="list-output"></p>
-    </div>
 
     <script src="./src/index.js"></script>
   </body>
